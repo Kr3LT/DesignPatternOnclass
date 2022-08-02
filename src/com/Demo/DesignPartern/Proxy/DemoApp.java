@@ -26,7 +26,6 @@ public class DemoApp {
         demoApp.showAllSinhVien();
         demoApp.showOneSinhVien("sinhVien1");
         demoApp.showOneSinhVien("sinhVien2");
-        demoApp.showAllSinhVien();
         long estimatedTime = System.currentTimeMillis() - startTime;
         System.out.print("Time elapsed: " + estimatedTime + "ms\n");
         return estimatedTime;
